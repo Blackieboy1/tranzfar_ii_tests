@@ -1,0 +1,23 @@
+{
+  "name": "tranzfar_ii_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.11.1",
+    "cypress": "^4.5.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
